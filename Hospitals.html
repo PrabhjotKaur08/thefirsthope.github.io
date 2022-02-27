@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="styles (1).css">
+
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo"><img src ="logo.jpeg"></h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="index (1).html">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                     <li><a href="#">SERVICE</a>
+                    <div class="service-ddmenu">
+                        <ul>
+                            <li><a href="Hospitals.html">Hospitals</a></li>
+                            <li><a href="#">Blood Banks</a></li>
+                            <li><a href="#">Organ Centers</a></li>
+                            <li><a href="#">Dispensaries</a></li>
+                        </ul>
+                    </div>
+                    </li>
+                    
+                    <li><a href="#">DIET</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+        </div>
+        <div class="hero">
+            <div class = "btn-box">
+                <button id="btn1" onclick="openHos1()">Hospital1</button>
+                <button id="btn2" onclick="openHos2()">Hospital2</button>
+                <button id="btn3" onclick="openHos3()">Hospital3</button>
+                <button id="btn4" onclick="openHos4()">Hospital4</button>
+                <button id="btn5" onclick="openHos5()">Hospital5</button>
+            </div>
+            <div id="Hos1" class="content1">
+                <div class="content-left">
+                    <h1>Orthonovo Joint &Trauma Hospitals Pvt Ltd</h1>
+                    <p>1.)Address : Near Nari Niketan, Nakodar road ,Model Town. 
+                        <br>2.) Services offered :
+                        <br>--:Spine Surgery
+                        <br>--:Knee Replacement 
+                        <br>--:Partial Knee Replacement
+                        <br>--:Spine Surgery
+                        <br>--:Trauma/Accident Care
+                             
+                        <br>3.) Hours of operation: Hosptital is operational 24*7 
+                        <br>4.) Emergency facilities: Doctors are available for emergency care as well.
+                    </p>
+                    <a href="#">Know more...</a>
+                </div>
+                <div class="content-right">
+                    <img src = "Orthonova.jpeg">
+
+                </div>
+            </div>
+
+            <div id="Hos2" class="content1">
+                <div class="content-left">
+                    <h1>Aggarawal Liver and Gut Super Speciality Hospital</h1>
+                    <p>1.)Address : Builiding no. 275,JP Nagar,Near Bsnl Exchange, Jalandhar<br> 
+                        2.)Services offered--- :<br>
+                        ---:general physician doctors<br>
+                        ---:gastroenterologists<br>
+                        ---:surgeons<br>
+                        ---:piles doctors<br>
+                        3.)hours of operation--: hosptital is operational 24*7
+                    </p>
+                    <a href="#">Know more...</a>
+                </div>
+                <div class="content-right">
+                    <img src = "Agarwal.jpeg">
+
+                </div>
+            </div>
+
+            <div id="Hos3" class="content1">
+                <div class="content-left">
+                    <h1>Aanand Hospital </h1>
+                    <p>1.)Address :Santokh Pura,Lamba Pind Road,Opposite petrol pump,Jalandhar.<br>
+                        2.)Services Offered :<br>
+                        --:hernia surgeons<br>
+                        --:thyroid doctors<br>
+                        --:urologists<br>
+                        --:appendix doctors<br>
+                        3.)Hours of operation :its open 24 hrs on all days of the week.
+                    </p>
+                    <a href="#">Know more...</a>
+                </div>
+                <div class="content-right">
+                    <img src = "Aanand.jpg">
+
+                </div>
+            </div>
+
+            <div id="Hos4" class="content1">
+                <div class="content-left">
+                    <h1>Shrimann Superspeciality Hospital </h1>
+                    <p>1.)Address --: jalandhar-pathankot road,new reru chowk Jalandhar.<br>
+                        2.)Services offered --: <br>
+                        --:renal transplant<br>
+                        --:general surgery<br>
+                        --:urology<br>
+                        --:nephrology<br>
+                        --:cardiology<br>
+                        --:pulmonology<br>
+                        3.)Beds available :<br>
+                        Total beds --:  300<br>
+                        Single patient beds --:  80<br>
+                        Critical care beds --: 84<br>
+                    </p>
+                    <a href="#">Know more...</a>
+                </div>
+                <div class="content-right">
+                    <img src = "Srimann.jpeg">
+
+                </div>
+            </div>
+
+            <div id="Hos5" class="content1">
+                <div class="content-left">
+                    <h1>Cardionova Hospital </h1>
+                    <p>1.Address: 292,Bj Lajpat Nagar ,Near Guru Mission chowk,Jalandhar.<br>
+                        2.Services :<br>
+                        1.neurosurgeons<br>
+                        2.caridologists<br>
+                        3.cardiac surgeons.<br>
+                        4.Angioplasty Bypass surgeons.<br>
+                        3.Hours of operation :<br>
+                        Emergency services are available 24*7.
+                    </p>
+                    <a href="#">Know more...</a>
+                </div>
+                <div class="content-right">
+                    <img src = "Cardionova.jpeg">
+
+                </div>
+            </div>
+
+        </div>
+
+        <script>
+            var Hos1 = document.getElementById("Hos1");
+            var Hos2 = document.getElementById("Hos2");
+            var Hos3 = document.getElementById("Hos3");
+            var Hos4 = document.getElementById("Hos4");
+            var Hos5 = document.getElementById("Hos5");
+
+            var btn1 = document.getElementById("btn1");
+            var btn2 = document.getElementById("btn2");
+            var btn3 = document.getElementById("btn3");
+            var btn4 = document.getElementById("btn4");
+            var btn5 = document.getElementById("btn5");
+
+            function openHos1(){
+                Hos1.style.transform = "translateX(0)";
+                Hos2.style.transform = "translateX(900%)";
+                Hos3.style.transform = "translateX(900%)";
+                Hos4.style.transform = "translateX(900%)";
+                Hos5.style.transform = "translateX(900%)";
+                btn1.style.color = "#ff7846";
+                btn2.style.color = "#fff";
+                btn3.style.color = "#fff";
+                btn4.style.color = "#fff";
+                btn5.style.color = "#fff";
+                Hos1.style.transitionDelay = "0.3s";
+                Hos2.style.transitionDelay = "0";
+                Hos3.style.transitionDelay = "0";
+                Hos4.style.transitionDelay = "0";
+                Hos5.style.transitionDelay = "0";
+            }
+            function openHos2(){
+                Hos1.style.transform = "translateX(900%)";
+                Hos2.style.transform = "translateX(0)";
+                Hos3.style.transform = "translateX(900%)";
+                Hos4.style.transform = "translateX(900%)";
+                Hos5.style.transform = "translateX(900%)";
+                btn1.style.color = "#fff";
+                btn2.style.color = "#ff7846";
+                btn3.style.color = "#fff";
+                btn4.style.color = "#fff";
+                btn5.style.color = "#fff";
+                Hos1.style.transitionDelay = "0s";
+                Hos2.style.transitionDelay = "0.3s";
+                Hos3.style.transitionDelay = "0s";
+                Hos4.style.transitionDelay = "0s";
+                Hos5.style.transitionDelay = "0s";
+                
+            }
+            function openHos3(){
+                Hos1.style.transform = "translateX(900%)";
+                Hos2.style.transform = "translateX(900%)";
+                Hos3.style.transform = "translateX(0)";
+                Hos4.style.transform = "translateX(900%)";
+                Hos5.style.transform = "translateX(900%)";
+                btn1.style.color = "#fff";
+                btn2.style.color = "#fff";
+                btn3.style.color = "#ff7846";
+                btn4.style.color = "#fff";
+                btn5.style.color = "#fff";
+                Hos1.style.transitionDelay = "0s";
+                Hos2.style.transitionDelay = "0s";
+                Hos3.style.transitionDelay = "0.3s";
+                Hos4.style.transitionDelay = "0s";
+                Hos5.style.transitionDelay = "0s";
+            }
+            function openHos4(){
+                Hos1.style.transform = "translateX(900%)";
+                Hos2.style.transform = "translateX(900%)";
+                Hos3.style.transform = "translateX(900%)";
+                Hos4.style.transform = "translateX(0)";
+                Hos5.style.transform = "translateX(900%)";
+                btn1.style.color = "#fff";
+                btn2.style.color = "#fff";
+                btn3.style.color = "#fff";
+                btn4.style.color = "#ff7846";
+                btn5.style.color = "#fff";
+                Hos1.style.transitionDelay = "0s";
+                Hos2.style.transitionDelay = "0s";
+                Hos3.style.transitionDelay = "0s";
+                Hos4.style.transitionDelay = "0.3s";
+                Hos5.style.transitionDelay = "0s";
+            }
+            function openHos5(){
+                Hos1.style.transform = "translateX(900%)";
+                Hos2.style.transform = "translateX(900%)";
+                Hos3.style.transform = "translateX(900%)";
+                Hos4.style.transform = "translateX(900%)";
+                Hos5.style.transform = "translateX(0)";
+                btn1.style.color = "#fff";
+                btn2.style.color = "#fff";
+                btn3.style.color = "#fff";
+                btn4.style.color = "#fff";
+                btn5.style.color = "#ff7846";
+                Hos1.style.transitionDelay = "0s";
+                Hos2.style.transitionDelay = "0s";
+                Hos3.style.transitionDelay = "0s";
+                Hos4.style.transitionDelay = "0s";
+                Hos5.style.transitionDelay = "0.3s";
+            }
+           
+        </script>
+    
+    
+    
+    </div>
+</body>            
+
+        
+     
+
+        
